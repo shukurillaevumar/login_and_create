@@ -1,0 +1,29 @@
+{
+  "name": "free_shop.uz",
+  "version": "1.0.0",
+  "description": "Online store",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrSharipov/free_shop.uz.git"
+  },
+  "author": "Umidjon Sharipov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrSharipov/free_shop.uz/issues"
+  },
+  "homepage": "https://github.com/MrSharipov/free_shop.uz#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.2"
+  }
+}
